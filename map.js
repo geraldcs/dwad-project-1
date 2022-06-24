@@ -1,7 +1,7 @@
 function initMap() {
-  let centerpoint = [1.3521, 103.8191];
+  let centerpoint = [7.1907, 125.4553];
   let map = L.map("map");
-  map.setView(centerpoint, 10);
+  map.setView(centerpoint, 11);
 
   let tileLayer = L.tileLayer(
     "https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}",
