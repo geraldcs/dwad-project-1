@@ -1,5 +1,5 @@
 function initMap() {
-  let centerpoint = [7.1907, 125.4553];
+  let centerpoint = [7.04905422045845, 125.61648834252622];
   let map = L.map("map");
   map.setView(centerpoint, 11);
 
