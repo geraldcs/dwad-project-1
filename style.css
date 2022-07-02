@@ -1,3 +1,29 @@
 #map {
-    height: 100vh;
+  height: 100vh;
+}
+
+#map-container {
+  position: relative;
+} 
+
+#search-bar {
+    position: absolute;
+    z-index: 314159;
+    top: 35px;
+    left: 40px;
+    padding: 30px; 
+    display: none;
+    border-width: 2px;
+}
+
+#results {
+  max-height: 200px;
+  overflow-y: scroll;
+}
+
+@media (min-width: 767px) {
+    #search-bar {
+        display: block; 
+        top: 10px;
+    }
 }
