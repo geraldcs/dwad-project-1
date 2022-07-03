@@ -6,6 +6,21 @@
   position: relative;
 } 
 
+.nav {
+  display: flex; 
+  flex-wrap: wrap;
+  margin-bottom: 0;
+  padding-left: 0;
+
+}
+
+#categoriesBar {
+  z-index: 314159;
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+}
+
 #search-bar {
     position: absolute;
     z-index: 314159;
