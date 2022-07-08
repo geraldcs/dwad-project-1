@@ -21,5 +21,5 @@ function searchResult(map, result, resultLayer) {
         markerResults.opentPopup();
     })
 
-    document.querySelector('#search-result').appendChild(createResult);
+    document.querySelector('#results').appendChild(createResult);
 }
