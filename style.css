@@ -36,10 +36,15 @@
   overflow-y: scroll;
 }
 
+/* m */
 @media (min-width: 767px) {
     #search-bar {
         display: block; 
         top: 10px;
+    }
+    
+    #search-button-toggle {
+      display: none;
     }
 }
 
