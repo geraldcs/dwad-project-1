@@ -10,7 +10,7 @@ function main() {
                 resultLayer.clearLayers();
                 let entry = document.querySelector('#search-entry').ariaValueMax;
                 let center = map.getBounds().getCenter();
-                let data = await find(center.lat, center.long, entry);
+                let data = await find(center.lat, center.lng, entry);
 
                 document.querySelector('#results').innerHTML = '';
 
