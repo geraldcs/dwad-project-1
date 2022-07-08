@@ -42,3 +42,28 @@
         top: 10px;
     }
 }
+
+/* xl */
+@media (min-width: 1200px) {
+  #categoriesBar {
+    position: absolute;
+    top: 0.9rem;
+    right: 6rem; 
+    z-index: 314159;
+  }
+}
+
+/* xxl - desktop */
+@media (min-width: 1400px) {
+  #categoriesBar {
+    position: absolute;
+    top: 2rem;
+    right: 3rem; 
+    z-index: 314159;
+  }
+
+  li.nav-item {
+    margin-right: 0.7rem;
+
+  }
+}
