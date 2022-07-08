@@ -17,8 +17,8 @@ function searchResult(map, result, resultLayer) {
 
     createResult.style.cursor = 'pointer';
     createResult.addEventListener('click', function() {
-        map.flyTo(latlng, 14);
-        markerResults.opentPopup();
+        map.flyTo(latlng, 15);
+        markerResults.openPopup();
     })
 
     document.querySelector('#results').appendChild(createResult);
