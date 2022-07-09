@@ -62,8 +62,8 @@
 @media (min-width: 1400px) {
   #categoriesBar {
     position: absolute;
-    top: 2rem;
-    right: 3rem; 
+    top: 1rem;
+    left: 26rem; 
     z-index: 314159;
   }
 
