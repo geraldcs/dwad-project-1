@@ -1,6 +1,8 @@
 function initMap() {
   let centerpoint = [7.04905422045845, 125.61648834252622];
-  let map = L.map("map");
+  let map = L.map("map", {
+    zoomControl: false
+  });
   map.setView(centerpoint, 13);
 
   let tileLayer = L.tileLayer(
@@ -16,6 +18,11 @@ function initMap() {
         "pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw", //demo access token (shared by a lot of people)
     }
   ).addTo(map);
+  
+  // relocate control zoom
+  L.control.zoom({
+    position: 'bottomright'
+  }).addTo(map);
 
   return map;
 }
