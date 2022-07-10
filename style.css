@@ -44,8 +44,13 @@
   overflow-y: scroll;
 }
 
+/* s */
+@media (min-width: 576px) {
+
+}
+
 /* m */
-@media (min-width: 767px) {
+@media (min-width: 768px) {
     #search-bar {
         display: block; 
         top: 10px;
@@ -54,6 +59,11 @@
     #search-button-toggle {
       display: none;
     }
+}
+
+/* l */
+@media (min-width: 992px) {
+
 }
 
 /* xl */
