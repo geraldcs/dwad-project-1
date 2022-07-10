@@ -87,6 +87,21 @@
 
   li.nav-item {
     margin-right: 0.7rem;
+    margin: 0.2em;
+  }
 
+  .fa-solid {
+    font-size: 1em;
+    margin-top: 0.7em;
+  }
+
+  .navfont {
+    font-size: 0.9rem;
+  }
+
+  .badge {
+    padding-top: 0.8px;
+    padding-bottom: 0.8px;
+    height: 3em;
   }
 }
