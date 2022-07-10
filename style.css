@@ -1,3 +1,10 @@
+@import url('http://fonts.cdnfonts.com/css/tex-gyre-adventor');
+
+body, .navfont {
+  font-family: 'TeXGyreAdventor', sans-serif;
+  font-weight: 500;
+}
+
 #map {
   height: 100vh;
 }
