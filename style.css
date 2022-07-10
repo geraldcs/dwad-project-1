@@ -100,8 +100,10 @@
   }
 
   .badge {
-    padding-top: 0.8px;
+    padding-top: 0.75px;
     padding-bottom: 0.8px;
+    padding-right: 11.5px;
+    padding-left: 11.5px;
     height: 3em;
   }
 }
