@@ -6,7 +6,7 @@ function main() {
         resultLayer.addTo(map);
 
         window.addEventListener('DOMContentLoaded', function () {
-            document.getElementById('search-button').addEventListener('click', async function () {
+            document.querySelector('#search-button').addEventListener('click', async function () {
                 resultLayer.clearLayers();
                 let entry = document.querySelector('#search-entry').ariaValueMax;
                 let center = map.getBounds().getCenter();
