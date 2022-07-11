@@ -6,7 +6,8 @@ function searchResult(map, result, resultLayer) {
     let markerResults = L.marker(latlng);
 
     markerResults.bindPopup(`
-        <h1>${result.name}</h1>
+        <h4 style="font-family: TeXGyreAdventor; font-weight: bold">${result.name}</h4>
+        <h6 style="font-family: TeXGyreAdventor;">${result.location.formatted_address}</h6>
     `)
 
     markerResults.addTo(resultLayer);
