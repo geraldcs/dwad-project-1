@@ -34,6 +34,10 @@ function main() {
         for (let items of navItems) {
             items.style.cursor = 'pointer';
         }
+        let magnifyingGlass = document.getElementById('search-button');
+        magnifyingGlass.addEventListener('mouseenter', function() {
+        magnifyingGlass.style.cursor = 'pointer';
+      });
     }
     init();
 }
