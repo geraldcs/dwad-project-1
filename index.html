@@ -28,11 +28,17 @@
 
     <div id="container">
         <div id="map-container">
-            <div id="search-bar">
-                <input type="text" id="search-entry" placeholder="Explore"/>
-                <button id="search-button" class="btn btn-sm bg-darkgreen">Search</button>
+            <div id="search-bar" class="rounded">
+                <span>
+                    <i class="fa-solid fa-map-location green-buttons"></i>
+                </span>
+                <input type="text" id="search-entry" placeholder="Where to go next?"/>
+                <span>
+                    <i class="fa-solid fa-magnifying-glass green-buttons"></i>
+                </span>
                 <div id="results"></div>
             </div>
+
             <button id="search-button-toggle">Show/Hide</button>
             <div id="map"></div>
         </div>
