@@ -1,8 +1,12 @@
-@import url('http://fonts.cdnfonts.com/css/tex-gyre-adventor');
+@font-face {
+  font-family: 'TeXGyreAdventor';
+  src: url('./fonts/texgyreadventor-regular.otf');
+  font-weight: 500;
+}
 
 body, .navfont {
   font-family: 'TeXGyreAdventor', sans-serif;
-  font-weight: 500;
+  font-weight: 200 !important;
 }
 
 #map {
