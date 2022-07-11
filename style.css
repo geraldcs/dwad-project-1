@@ -110,8 +110,34 @@ body, .navfont {
   #categoriesBar {
     position: absolute;
     top: 1rem;
-    left: 26rem; 
+    left: 24.5rem; 
     z-index: 314159;
+  }
+
+  #search-bar {
+    position: absolute;
+    z-index: 314159;
+    top: 1rem;
+    left: 20px;
+    padding: 6.5px;
+    background-color: white;
+    padding-right: 0.5em;
+    border: 1px solid #248232;
+  }
+
+  .green-buttons {
+    color: #248232 !important;
+      font-size: 1em;
+      margin-top: 2px;
+      padding: 1px;
+  }
+
+  input#search-entry {
+    outline: none;
+    border: none;
+    background-color: white;
+    padding-right: 50px;
+    padding-left: 32px;
   }
 
   li.nav-item {
