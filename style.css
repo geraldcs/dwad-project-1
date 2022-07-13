@@ -98,33 +98,42 @@ li.nav-item {
 
 /* xl */
 @media (min-width: 1200px) {
-  #categoriesBar {
-    position: absolute;
-    top: 1rem;
-    left: 26rem;
-    z-index: 314159;
-  }
   
   li.nav-item {
     margin-right: 0.85rem;
     margin: 0.2em;
   }
-
-  .fa-solid {
+  
+  
+  .green-buttons {
+    color: #248232 !important;
     font-size: 1em;
-    margin-top: 0.7em;
+    margin-top: 2px !important;
+    padding: 1px;
   }
   
   .navfont {
     font-size: 0.9rem;
   }
-
+  
   .badge {
     padding-top: 0.75px;
     padding-bottom: 0.8px;
     padding-right: 11.5px;
     padding-left: 11.5px;
     height: 3em;
+  }
+
+  #categoriesBar {
+    position: absolute;
+    top: 1rem;
+    left: 22.5rem;
+    z-index: 314159;
+  }
+  
+  .fa-solid {
+    font-size: 1em;
+    margin-top: 0.7em;
   }
 }
 
