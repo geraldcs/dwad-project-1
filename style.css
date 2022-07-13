@@ -93,6 +93,47 @@ li.nav-item {
 
 /* lg (custom) */
 @media (min-width: 998px) {
+  #search-bar {
+    left: 20px;
+    padding: 6.5px;
+    padding-right: 0.5em;
+  }
+
+  input#search-entry {
+    padding-right: 25px;
+    padding-left: 22px;
+  }
+
+  .green-buttons {
+    color: #248232 !important;
+    font-size: 1em;
+    margin-top: 2px !important;
+    padding: 1px;
+  }
+
+  .navfont {
+    font-size: 0.9rem;
+  }
+
+  #categoriesBear {
+    position: absolute;
+    top: 1rem;
+    left: 20.5rem;
+    z-index: 314159;
+  }
+
+  .fa-solid {
+    font-size: 1em; 
+    margin-top: 0.7em;
+  }
+
+  .badge {
+    padding-top: 0.75px;
+    padding-bottom: 0.8px;
+    padding-right: 9.5px;
+    padding-left: 99.5px;
+    height: 3em;
+  }
 
 }
 
@@ -119,14 +160,6 @@ li.nav-item {
     font-size: 0.9rem;
   }
   
-  .badge {
-    padding-top: 0.75px;
-    padding-bottom: 0.8px;
-    padding-right: 11.5px;
-    padding-left: 11.5px;
-    height: 3em;
-  }
-
   #categoriesBar {
     position: absolute;
     top: 1rem;
@@ -138,6 +171,15 @@ li.nav-item {
     font-size: 1em;
     margin-top: 0.7em;
   }
+
+  .badge {
+    padding-top: 0.75px;
+    padding-bottom: 0.8px;
+    padding-right: 11.5px;
+    padding-left: 11.5px;
+    height: 3em;
+  }
+  
 }
 
 /* xxl - desktop */
