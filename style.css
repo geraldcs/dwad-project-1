@@ -91,27 +91,30 @@ li.nav-item {
     }
 }
 
-/* l */
-@media (min-width: 992px) {
+/* lg (custom) */
+@media (min-width: 998px) {
 
 }
 
 /* xl */
 @media (min-width: 1200px) {
-  
-  li.nav-item {
-    margin-right: 0.85rem;
-    margin: 0.2em;
+  #search-bar {
+    left: 20px;
+    padding: 6.5px;
+    padding-right: 0.5em;
   }
-  
-  
+
+  input#search-entry {
+    padding-right: 50px;
+    padding-left: 32px;
+  }
   .green-buttons {
     color: #248232 !important;
     font-size: 1em;
     margin-top: 2px !important;
     padding: 1px;
   }
-  
+
   .navfont {
     font-size: 0.9rem;
   }
