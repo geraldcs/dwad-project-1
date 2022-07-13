@@ -21,6 +21,13 @@ body, .navfont{
   background-color: #248232;
 }
 
+#search-bar {
+  position: absolute;
+    z-index: 314159;
+    top: 1rem;
+    background-color: white;
+    border: 1px solid #248232;
+}
 .bg-darkgreen:hover {
   background-color: #2d9f3e;
 }
@@ -31,6 +38,12 @@ body, .navfont{
   margin-bottom: 0;
   padding-left: 0;
 
+}
+
+input#search-entry {
+  outline: none;
+  border: none;
+  background-color: white;
 }
 
 #categoriesBar {
@@ -54,6 +67,11 @@ body, .navfont{
   max-height: 200px;
   max-width: 300px;
   overflow-y: scroll;
+}
+
+li.nav-item {
+  margin-right: 0.85rem;
+  margin: 0.2em;
 }
 
 /* s */
@@ -112,6 +130,28 @@ body, .navfont{
 
 /* xxl - desktop */
 @media (min-width: 1400px) {
+  #search-bar {
+    left: 20px;
+    padding: 6.5px;
+    padding-right: 0.5em;
+  }
+
+  input#search-entry {
+    padding-right: 50px;
+    padding-left: 32px;
+  }
+
+  .green-buttons {
+    color: #248232 !important;
+      font-size: 1em;
+      margin-top: 2px !important;
+      padding: 1px;
+  }
+
+  .navfont {
+    font-size: 0.9rem;
+  }
+  
   #categoriesBar {
     position: absolute;
     top: 1rem;
@@ -119,44 +159,9 @@ body, .navfont{
     z-index: 314159;
   }
 
-  #search-bar {
-    position: absolute;
-    z-index: 314159;
-    top: 1rem;
-    left: 20px;
-    padding: 6.5px;
-    background-color: white;
-    padding-right: 0.5em;
-    border: 1px solid #248232;
-  }
-
-  .green-buttons {
-    color: #248232 !important;
-      font-size: 1em;
-      margin-top: 2px;
-      padding: 1px;
-  }
-
-  input#search-entry {
-    outline: none;
-    border: none;
-    background-color: white;
-    padding-right: 50px;
-    padding-left: 32px;
-  }
-
-  li.nav-item {
-    margin-right: 0.85rem;
-    margin: 0.2em;
-  }
-
   span.fa-solid {
     font-size: 1em;
     margin-top: 0.7em;
-  }
-
-  .navfont {
-    font-size: 0.9rem;
   }
 
   .badge {
