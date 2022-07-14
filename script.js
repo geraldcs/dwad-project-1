@@ -20,15 +20,6 @@ function main() {
 
             });
 
-            document.querySelector('#search-button-toggle').addEventListener('click', function () {
-                let searchBar = document.querySelector('#search-bar');
-                let display = searchBar.style.display;
-                if (!display || display == 'none') {
-                    searchBar.style.display = 'block';
-                } else {
-                    searchBar.style.display = 'none';
-                }
-            })
         });
         let navItems = document.querySelectorAll('li.nav-item');
         for (let items of navItems) {
