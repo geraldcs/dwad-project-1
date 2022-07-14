@@ -21,17 +21,48 @@ body, .navfont{
   background-color: #248232;
 }
 
+/* Search Bar */
 #search-bar {
   position: absolute;
     z-index: 314159;
     top: 1rem;
+    left: 45px;
+    padding: 25px;
+    padding-right: 0.5em;
     background-color: white;
     border: 1px solid #248232;
 }
+
+input#search-entry {
+  outline: none;
+  border: none;
+  background-color: white;
+}
+/* #search-bar {
+  position: absolute;
+  z-index: 314159;
+  top: 35px;
+  left: 40px;
+  padding: 30px; 
+  display: none;
+  border-width: 2px;
+} */
+
+.green-buttons {
+  color: #248232 !important;
+}
+
 .bg-darkgreen:hover {
   background-color: #2d9f3e;
 }
 
+#results {
+  max-height: 200px;
+  max-width: 300px;
+  overflow-y: scroll;
+}
+
+/* Navbar */
 .nav {
   display: flex; 
   flex-wrap: wrap;
@@ -40,34 +71,13 @@ body, .navfont{
 
 }
 
-input#search-entry {
-  outline: none;
-  border: none;
-  background-color: white;
-}
-
 #categoriesBar {
   z-index: 314159;
   position: absolute;
-  top: 2rem;
+  top: 6.5rem;
   right: 2rem;
 }
 
-#search-bar {
-    position: absolute;
-    z-index: 314159;
-    top: 35px;
-    left: 40px;
-    padding: 30px; 
-    display: none;
-    border-width: 2px;
-}
-
-#results {
-  max-height: 200px;
-  max-width: 300px;
-  overflow-y: scroll;
-}
 
 li.nav-item {
   margin-right: 0.85rem;
@@ -89,6 +99,52 @@ li.nav-item {
     #search-button-toggle {
       display: none;
     }
+}
+
+/* lg */
+@media (min-width: 998px) {
+  #search-bar {
+    left: 20px;
+    padding: 6.5px;
+    padding-right: 0.5em;
+  }
+
+  input#search-entry {
+    padding-right: 23.5px;
+    padding-left: 22px;
+  }
+
+  .green-buttons {
+    color: #248232 !important;
+    font-size: 1em;
+    margin-top: 2px !important;
+    padding: 1px;
+  }
+
+  .navfont {
+    font-size: 0.9rem;
+  }
+
+  #categoriesBear {
+    position: absolute;
+    top: 1rem;
+    left: 20rem;
+    z-index: 314159;
+  }
+
+  .fa-solid {
+    font-size: 1em; 
+    margin-top: 0.7em;
+  }
+
+  .badge {
+    padding-top: 0.75px;
+    padding-bottom: 0.8px;
+    padding-right: 9.5px;
+    padding-left: 9.5px;
+    height: 3em;
+  }
+
 }
 
 /* lg (custom) */
