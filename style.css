@@ -1,11 +1,12 @@
 @font-face {
-  font-family: 'TeXGyreAdventor';
-  src: url('./fonts/texgyreadventor-regular.otf');
+  font-family: "TeXGyreAdventor";
+  src: url("./fonts/texgyreadventor-regular.otf");
   font-weight: 500;
 }
 
-body, .navfont{
-  font-family: 'TeXGyreAdventor', sans-serif;
+body,
+.navfont {
+  font-family: "TeXGyreAdventor", sans-serif;
   font-weight: 200 !important;
 }
 
@@ -15,7 +16,7 @@ body, .navfont{
 
 #map-container {
   position: relative;
-} 
+}
 
 .bg-darkgreen {
   background-color: #248232;
@@ -24,13 +25,13 @@ body, .navfont{
 /* Search Bar */
 #search-bar {
   position: absolute;
-    z-index: 314159;
-    top: 1rem;
-    left: 45px;
-    padding: 25px;
-    padding-right: 0.5em;
-    background-color: white;
-    border: 1px solid #248232;
+  z-index: 314159;
+  top: 1rem;
+  left: 45px;
+  padding: 25px;
+  padding-right: 0.5em;
+  background-color: white;
+  border: 1px solid #248232;
 }
 
 input#search-entry {
@@ -38,15 +39,6 @@ input#search-entry {
   border: none;
   background-color: white;
 }
-/* #search-bar {
-  position: absolute;
-  z-index: 314159;
-  top: 35px;
-  left: 40px;
-  padding: 30px; 
-  display: none;
-  border-width: 2px;
-} */
 
 .green-buttons {
   color: #248232 !important;
@@ -64,11 +56,10 @@ input#search-entry {
 
 /* Navbar */
 .nav {
-  display: flex; 
+  display: flex;
   flex-wrap: wrap;
   margin-bottom: 0;
   padding-left: 0;
-
 }
 
 #categoriesBar {
@@ -78,27 +69,56 @@ input#search-entry {
   right: 2rem;
 }
 
-
 li.nav-item {
   margin-right: 0.85rem;
   margin: 0.2em;
 }
 
-/* s */
-@media (min-width: 576px) {
-
-}
-
 /* m */
 @media (min-width: 768px) {
-    #search-bar {
-        display: block; 
-        top: 10px;
-    }
-    
-    #search-button-toggle {
-      display: none;
-    }
+  #search-bar {
+    left: 20px;
+    padding: 6.5px;
+    padding-right: 0.5em;
+  }
+
+  input#search-entry {
+    padding-right: 15.5px;
+    padding-left: 14px;
+  }
+
+  .green-buttons {
+    color: #248232 !important;
+    font-size: 0.1em;
+    margin-top: 2px !important;
+    padding: 1px;
+  }
+
+  .navfont {
+    font-size: 0.6rem;
+  }
+
+  #categoriesBear {
+    position: absolute;
+    top: 1rem;
+    left: 19.5rem;
+    z-index: 314159;
+  }
+
+  .fa-solid {
+    font-size: 1em;
+    margin-top: 0.7em;
+  }
+
+  .badge {
+    padding-top: 0.75px;
+    padding-bottom: 0.8px;
+    padding-right: 5.85px;
+    padding-left: 5.85px;
+    height: 2em;
+  }
+
+
 }
 
 /* lg */
@@ -133,7 +153,7 @@ li.nav-item {
   }
 
   .fa-solid {
-    font-size: 1em; 
+    font-size: 1em;
     margin-top: 0.7em;
   }
 
@@ -144,7 +164,6 @@ li.nav-item {
     padding-left: 9.5px;
     height: 3em;
   }
-
 }
 
 /* lg (custom) */
@@ -179,7 +198,7 @@ li.nav-item {
   }
 
   .fa-solid {
-    font-size: 1em; 
+    font-size: 1em;
     margin-top: 0.7em;
   }
 
@@ -190,7 +209,6 @@ li.nav-item {
     padding-left: 99.5px;
     height: 3em;
   }
-
 }
 
 /* xl */
@@ -215,14 +233,14 @@ li.nav-item {
   .navfont {
     font-size: 0.9rem;
   }
-  
+
   #categoriesBar {
     position: absolute;
     top: 1rem;
     left: 22.5rem;
     z-index: 314159;
   }
-  
+
   .fa-solid {
     font-size: 1em;
     margin-top: 0.7em;
@@ -235,7 +253,6 @@ li.nav-item {
     padding-left: 11.5px;
     height: 3em;
   }
-  
 }
 
 /* xxl - desktop */
@@ -253,19 +270,19 @@ li.nav-item {
 
   .green-buttons {
     color: #248232 !important;
-      font-size: 1em;
-      margin-top: 2px !important;
-      padding: 1px;
+    font-size: 1em;
+    margin-top: 2px !important;
+    padding: 1px;
   }
 
   .navfont {
     font-size: 0.9rem;
   }
-  
+
   #categoriesBar {
     position: absolute;
     top: 1rem;
-    left: 22.5rem; 
+    left: 22.5rem;
     z-index: 314159;
   }
 
