@@ -6,9 +6,9 @@ function main() {
         resultLayer.addTo(map);
 
         window.addEventListener('DOMContentLoaded', function () {
-            document.querySelector('#search-button').addEventListener('click', async function () {
+            document.querySelector('#searchButton').addEventListener('click', async function () {
                 resultLayer.clearLayers();
-                let entry = document.querySelector('#search-entry').ariaValueMax;
+                let entry = document.querySelector('#searchEntry').ariaValueMax;
                 let center = map.getBounds().getCenter();
                 let data = await find(center.lat, center.lng, entry);
 
@@ -25,7 +25,7 @@ function main() {
         for (let items of navItems) {
             items.style.cursor = 'pointer';
         }
-        let magnifyingGlass = document.getElementById('search-button');
+        let magnifyingGlass = document.getElementById('searchButton');
         magnifyingGlass.addEventListener('mouseenter', function() {
         magnifyingGlass.style.cursor = 'pointer';
       });
