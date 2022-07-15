@@ -14,12 +14,12 @@ body,
   height: 100vh;
 }
 
-#map-container {
+#mapContainer {
   position: relative;
 }
 
 /* Search Bar */
-#search-bar {
+#searchBar {
   position: absolute;
   z-index: 314159;
   top: 1rem;
@@ -30,7 +30,7 @@ body,
   border: 1px solid #248232;
 }
 
-input#search-entry {
+input#searchEntry {
   outline: none;
   border: none;
   background-color: white;
@@ -98,13 +98,13 @@ li.nav-item {
 
 /* m */
 @media (min-width: 768px) {
-  #search-bar {
+  #searchBar {
     left: 20px;
     padding: 6.5px;
     padding-right: 0.5em;
   }
 
-  input#search-entry {
+  input#searchEntry {
     padding-right: 15.5px;
     padding-left: 14px;
   }
@@ -143,13 +143,13 @@ li.nav-item {
 
 /* lg */
 @media (min-width: 992px) {
-  #search-bar {
+  #searchBar {
     left: 20px;
     padding: 6.5px;
     padding-right: 0.5em;
   }
 
-  input#search-entry {
+  input#searchEntry {
     padding-right: 23.5px;
     padding-left: 20px;
   }
@@ -188,13 +188,13 @@ li.nav-item {
 
 /* lg (custom) */
 @media (min-width: 998px) {
-  #search-bar {
+  #searchBar {
     left: 20px;
     padding: 6.5px;
     padding-right: 0.5em;
   }
 
-  input#search-entry {
+  input#searchEntry {
     padding-right: 25px;
     padding-left: 22px;
   }
@@ -233,13 +233,13 @@ li.nav-item {
 
 /* xl */
 @media (min-width: 1200px) {
-  #search-bar {
+  #searchBar {
     left: 20px;
     padding: 6.5px;
     padding-right: 0.5em;
   }
 
-  input#search-entry {
+  input#searchEntry {
     padding-right: 50px;
     padding-left: 32px;
   }
@@ -277,13 +277,13 @@ li.nav-item {
 
 /* xxl - desktop */
 @media (min-width: 1400px) {
-  #search-bar {
+  #searchBar {
     left: 20px;
     padding: 6.5px;
     padding-right: 0.5em;
   }
 
-  input#search-entry {
+  input#searchEntry {
     padding-right: 50px;
     padding-left: 32px;
   }
