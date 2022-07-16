@@ -8,15 +8,25 @@ function main() {
         window.addEventListener('DOMContentLoaded', function () {
             document.querySelector('#searchButton').addEventListener('click', async function () {
                 resultLayer.clearLayers();
-                let entry = document.querySelector('#searchEntry').ariaValueMax;
+                let entry = document.querySelector('#searchEntry').value;
                 let center = map.getBounds().getCenter();
-                let data = await find(center.lat, center.lng, entry);
+                // let data = await find(center.lat, center.lng, entry);
 
                 document.querySelector('#results').innerHTML = '';
 
-                for (let results of data.results) {
-                    searchResult(map, results, resultLayer);
+                // form validation
+                if (entry.length == '0') {
+                    let inputQuery = document.querySelector('#searchEntry');
+                    inputQuery.placeholder = '*Please enter a location';
+                    data = ''
                 }
+                else {
+                    let data = await find(center.lat, center.lng, entry);
+                    for (let results of data.results) {
+                        searchResult(map, results, resultLayer);
+                    }
+                }
+
 
             });
 
@@ -26,9 +36,9 @@ function main() {
             items.style.cursor = 'pointer';
         }
         let magnifyingGlass = document.getElementById('searchButton');
-        magnifyingGlass.addEventListener('mouseenter', function() {
-        magnifyingGlass.style.cursor = 'pointer';
-      });
+        magnifyingGlass.addEventListener('mouseenter', function () {
+            magnifyingGlass.style.cursor = 'pointer';
+        });
     }
     init();
 }
