@@ -43,7 +43,7 @@ function main() {
         // load hotels
         let hotelBtn = document.querySelector('#hotelsButton');
         hotelBtn.addEventListener('click', async function () {
-            resultLayer.clearLayers();
+            clearResults();
             center = map.getBounds().getCenter();
             data = await find(center.lat, center.lng, 'hotels');
             for (let results of data.results) {
@@ -54,13 +54,22 @@ function main() {
         // load restaurants
         let restaurantBtn = document.querySelector('#restaurantsButton');
         restaurantBtn.addEventListener('click', async function () {
-            resultLayer.clearLayers();
+            clearResults();
             center = map.getBounds().getCenter();
             data = await find(center.lat, center.lng, 'restaurants');
             for (let results of data.results) {
                 searchResult(map, results, resultLayer);
             }
         })
+
+        // clear results and markers
+        function clearResults() {
+            resultLayer.clearLayers();
+            let resultName = document.querySelectorAll('.searchResult');
+            for (res of resultName) {
+                res.style.display = 'none';
+            }
+        }
     }
     init();
 }

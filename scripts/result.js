@@ -13,7 +13,7 @@ function searchResult(map, result, resultLayer) {
     markerResults.addTo(resultLayer);
 
     let createResult = document.createElement('div');
-    createResult.className = 'search-result';
+    createResult.className = 'searchResult';
     createResult.innerHTML = result.name;
 
     createResult.style.cursor = 'pointer';
