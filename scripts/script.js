@@ -39,6 +39,17 @@ function main() {
         magnifyingGlass.addEventListener('mouseenter', function () {
             magnifyingGlass.style.cursor = 'pointer';
         });
+
+        // load hotels
+        let hotelBtn = document.querySelector('#hotelsButton');
+        hotelBtn.addEventListener('click', async function () {
+            resultLayer.clearLayers();
+            center = map.getBounds().getCenter();
+            data = await find(center.lat, center.lng, 'hotels');
+            for (let results of data.results) {
+                searchResult(map, results, resultLayer);
+            }
+        })
     }
     init();
 }
