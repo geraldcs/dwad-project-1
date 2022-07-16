@@ -62,6 +62,61 @@ function main() {
             }
         })
 
+        // load malls
+        let mallBtn = document.querySelector('#mallsButton');
+        mallBtn.addEventListener('click', async function () {
+            clearResults();
+            center = map.getBounds().getCenter();
+            data = await find(center.lat, center.lng, 'malls');
+            for (let results of data.results) {
+                searchResult(map, results, resultLayer);
+            }
+        })
+
+        // load cafes
+        let cafeBtn = document.querySelector('#cafesButton');
+        cafeBtn.addEventListener('click', async function () {
+            clearResults();
+            center = map.getBounds().getCenter();
+            data = await find(center.lat, center.lng, 'cafes');
+            for (let results of data.results) {
+                searchResult(map, results, resultLayer);
+            }
+        })
+
+        // load gyms
+        let gymBtn = document.querySelector('#gymsButton');
+        gymBtn.addEventListener('click', async function () {
+            clearResults();
+            center = map.getBounds().getCenter();
+            data = await find(center.lat, center.lng, 'gyms');
+            for (let results of data.results) {
+                searchResult(map, results, resultLayer);
+            }
+        })
+
+        // load clubs
+        let clubBtn = document.querySelector('#clubsButton');
+        clubBtn.addEventListener('click', async function () {
+            clearResults();
+            center = map.getBounds().getCenter();
+            data = await find(center.lat, center.lng, 'clubs');
+            for (let results of data.results) {
+                searchResult(map, results, resultLayer);
+            }
+        })
+
+        // load parks
+        let parkBtn = document.querySelector('#parksButton');
+        parkBtn.addEventListener('click', async function () {
+            clearResults();
+            center = map.getBounds().getCenter();
+            data = await find(center.lat, center.lng, 'parks');
+            for (let results of data.results) {
+                searchResult(map, results, resultLayer);
+            }
+        })
+
         // clear results and markers
         function clearResults() {
             resultLayer.clearLayers();
