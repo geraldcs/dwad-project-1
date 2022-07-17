@@ -147,7 +147,7 @@ Search Entry/Input: "Raleway Light
 | 1 | Search for ‘cafes’ | 1) Enter the word ‘cafe/cafes’ into the textbox | Display a list of maps (randomized order). The Map will load markers for the coffee shop |
 | 2  | Find out different type of establishments under the Restaurants Icon | 1) Click the Restaurants icon. 2) Click on any marker icon | Display a popup. The establishment type should appear right below the five stars and bookmark icon |
 | 3 | Form validation | 1) Click the magnifying glass icon without typing anything inside the form | The placeholder should say: *Please enter a location. This will not load any/new marker icons  |
-| 4 | Fly to a certain location under the Hotels category | 1) Click the Hotels icon. 2) Select any hotel under the list beneath the search form | It should zoom in to the current location. This will then display the popup containing the address and type of establishment |
+| 4 | Fly to a certain location under the Hotels category | 1) Click the Hotels icon.    2) Select any hotel under the list beneath the search form | It should zoom in to the current location. This will then display the popup containing the address and type of establishment |
 ## Deployment
 
 The live demo for the web application can be accessed here: [Travera](https://geraldcs.github.io/dwad-project-1/)
