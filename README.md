@@ -129,7 +129,7 @@ Search Entry/Input: "Raleway Light
     - Used to create functionality on buttons and user input
 - [Bootstrap v5.0 (getbootstrap.com)](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
     - Used in making the navigation bar
-- [Leaflet)](https://leafletjs.com/)
+- [Leaflet](https://leafletjs.com/)
     - Used to create the map feature
 - Foursquare API [Get Place Photos](https://developer.foursquare.com/reference/place-search)
     - Access the necessary data to load in the coordinates
@@ -155,6 +155,7 @@ The live demo for the web application can be accessed here: [Travera](https://ge
 Google Fonts for fonts displayed in the web application
 
 Font Awesome Icons
+
 [Travera Icon](https://fontawesome.com/search?q=maps&s=solid%2Cbrands)
 
 [Hotel Icon](https://fontawesome.com/icons/hotel?s=solid)
