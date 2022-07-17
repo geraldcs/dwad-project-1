@@ -66,7 +66,7 @@ input#searchEntry {
 
 #results {
   max-height: 200px;
-  max-width: 300px;
+  max-width: 290px;
   overflow-y: scroll;
 }
 
@@ -139,6 +139,11 @@ li.nav-item {
     font-size: 0.6rem;
   }
 
+  #results {
+    max-height: 200px;
+    max-width: 265px;
+  }
+
   #categoriesBar {
     position: absolute;
     top: 1rem;
@@ -183,6 +188,11 @@ li.nav-item {
 
   .navfont {
     font-size: 0.9rem;
+  }
+
+  #results {
+    max-height: 200px;
+    max-width: 280px;
   }
 
   #categoriesBar {
@@ -230,6 +240,11 @@ li.nav-item {
     font-size: 0.9rem;
   }
 
+  #results {
+    max-height: 200px;
+    max-width: 280px;
+  }
+
   #categoriesBear {
     position: absolute;
     top: 1rem;
@@ -272,6 +287,11 @@ li.nav-item {
 
   .navfont {
     font-size: 0.9rem;
+  }
+
+  #results {
+    max-height: 200px;
+    max-width: 290px;
   }
 
   #categoriesBar {
