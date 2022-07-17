@@ -117,9 +117,9 @@ The choice of color was meant to synergize with the color of the map. The simpli
 
 Body, Search Results: TeXGyreHeros
 
-Navbar Icons: "eXGyreAdventor
+Navbar Icons: TeXGyreAdventor
 
-Search Entry/Input: "Raleway Light
+Search Entry/Input: Raleway Light
 
 ### Technologies Used
 
