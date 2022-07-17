@@ -109,7 +109,7 @@ Hand Drawn ([Screenshot by Lightshot (prnt.sc)](https://prnt.sc/nRz2jNbRfNgw))
 
 ### Color Palette 
 
-<img src='color_palettes.png'/>
+<img src='./images/color_palettes.png'/>
 
 The choice of color was meant to synergize with the color of the map. The simplicity of the color choice makes it easier to focus.
 
