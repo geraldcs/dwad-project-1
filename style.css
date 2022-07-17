@@ -4,11 +4,28 @@
   font-weight: 500;
 }
 
-body,
+@font-face {
+  font-family: "TeXGyreHeros";
+  src: url("./fonts/texgyreheros-regular.otf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Raleway Light";
+  src: url("./fonts/Raleway-Light.ttf");
+  font-weight: 300;
+}
+
+body {
+  font-family: "TeXGyreHeros", sans-serif;
+  font-weight: 200 !important;
+}
+
 .navfont {
   font-family: "TeXGyreAdventor", sans-serif;
   font-weight: 200 !important;
 }
+
 
 #map {
   height: 100vh;
@@ -36,6 +53,7 @@ input#searchEntry {
   background-color: white;
   padding-right: 50px;
   padding-left: 32px;
+  font-family: "Raleway Light", sans-serif;
 }
 
 .green-buttons {
