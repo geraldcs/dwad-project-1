@@ -23,9 +23,9 @@ body,
   position: absolute;
   z-index: 314159;
   top: 1rem;
-  left: 10px;
-  padding: 6.5x;
-  padding-right: 14.5em;
+  left: 115px;
+  padding: 6.5px;
+  padding-right: 1em;
   background-color: white;
   border: 1px solid #248232;
 }
@@ -43,6 +43,7 @@ input#searchEntry {
   padding: 1px;
   font-size: 1em;
   margin-top: 2px !important;
+  padding-left: 5px;
 }
 
 #results {
@@ -62,8 +63,8 @@ input#searchEntry {
 #categoriesBar {
   z-index: 314159;
   position: absolute;
-  top: 4rem;
-  right: 1.75rem;
+  top: 45rem;
+  right: 2.75rem;
 }
 
 li.nav-item {
@@ -124,6 +125,7 @@ li.nav-item {
     position: absolute;
     top: 1rem;
     left: 19.5rem;
+    right: 1.75rem;
     z-index: 314159;
   }
 
