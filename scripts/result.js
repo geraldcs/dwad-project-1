@@ -21,8 +21,16 @@ function searchResult(map, result, resultLayer) {
     let markerResults = L.marker(latlng, {icon: customIcons});
 
     markerResults.bindPopup(`
-        <h4 style="font-family: TeXGyreAdventor; font-weight: bold">${result.name}</h4>
-        <h5 style="font-family: TeXGyreAdventor;">(${result.categories[0].name})</h5>
+    <h4 style="font-family: TeXGyreAdventor; font-weight: bold">${result.name}</h4>
+    <p title="Give a rating!" style="font-size: 20px; margin-top: 0; margin-bottom: 0; cursor: pointer;" >
+    <span onMouseOver="this.style.color='gold'" onMouseOut="this.style.color='gray' style="color: gray;">★</span>
+    <span onMouseOver="this.style.color='gold'" onMouseOut="this.style.color='gray' style="color: gray;">★</span>
+    <span onMouseOver="this.style.color='gold'" onMouseOut="this.style.color='gray' style="color: gray;">★</span>
+    <span onMouseOver="this.style.color='gold'" onMouseOut="this.style.color='gray' style="color: gray;">★</span>
+    <span onMouseOver="this.style.color='gold'" onMouseOut="this.style.color='gray' style="color: gray;">★</span>
+
+     <span title="Add to bookmarks" style="cursor: pointer;">&#128278;</span></p>
+        <h6 style="font-family: TeXGyreAdventor;">(${result.categories[0].name})</h6>
         <h6 style="font-family: TeXGyreAdventor; font-size: 15px">${result.location.formatted_address}</h6>
     `)
 
