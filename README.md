@@ -71,7 +71,7 @@ Access the live demo here
 | --- | --- |
 | As a foreigner that hasn’t visited the Philippines yet, I want to know the different places of interests and tourist spots in Davao City, so that I can find a place to enjoy | Load recommendations on places of interests. Expose the users on different cultures and tourist spots. |
 | As a foreigner that has visited the country, but not Davao. I want to explore Davao city, so that I may be able to experience a different city and it’s culture, enjoy places of interests, and hopefully immerse in it | Discover places that might be similar to places they have already enjoyed in the previous city they have visited. |
-| As a local who is already familiar with the city, I want to be know places I haven’t been to so that I may explore more about my city. | Recommending new places that the user hasn’t visited yet. Bookmark and rate the places users have already visited. |
+| As a local who is already familiar with the city, I want to know places I haven’t been to so that I may explore more about my city. | Recommending new places that the user hasn’t visited yet. Bookmark and rate the places users have already visited. |
 
 ## Five Planes of UI/UX 
 
