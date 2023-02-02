@@ -17,8 +17,6 @@ In the wake of pandemic, majority of the regulations and restrictions were lifte
 
 This project hopes to aid that vision by creating a web application that would allow the users to look up places they wish to explore and get recommendations on certain activities they wish to engage in. Be it looking for a coffee shop or the finest beach, Travera aims to guide locals and tourists alike. 
 
-Access the live demo here
-
 # 5 Planes of Design 
 
 ## Target audience group: 
