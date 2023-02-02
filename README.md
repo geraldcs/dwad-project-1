@@ -1,6 +1,8 @@
 # Travera
 
 ## Summary
+The live demo for the web application can be accessed here: [Travera](https://geraldcs.github.io/dwad-project-1/)
+
 ### Premise
 Travera is a website where it allows the users to explore and discover different parts of Davao City.
 ### Context and Justification
